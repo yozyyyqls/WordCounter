@@ -95,7 +95,7 @@
       <recent name="D:\IntelliJ IDEA\HelloDemo\src\com\demo\control" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main (1)">
+  <component name="RunManager" selected="Application.ControlMain">
     <configuration default="true" type="Applet" factoryName="Applet">
       <module name="" />
       <option name="MAIN_CLASS_NAME" />
@@ -121,13 +121,13 @@
       <Host>localhost</Host>
       <Port>5050</Port>
     </configuration>
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.demo.control.Main" />
+    <configuration name="ControlMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.demo.control.ControlMain" />
       <module name="WordCounterG" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.demo.control.*" />
+          <option name="PATTERN" value="com.demo.wordCounter.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -147,6 +147,20 @@
       </extension>
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WordCount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.demo.wordCounter.WordCount" />
+      <module name="WordCounterG" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.demo.wordCounter.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -190,7 +204,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.ControlMain" />
+        <item itemvalue="Application.WordCount" />
       </list>
     </recent_temporary>
   </component>
@@ -205,6 +220,7 @@
       <workItem from="1584517945784" duration="8419000" />
       <workItem from="1584543970432" duration="3871000" />
       <workItem from="1584583930475" duration="155000" />
+      <workItem from="1584584139134" duration="4633000" />
     </task>
     <servers />
   </component>
@@ -220,38 +236,38 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1584584086994" />
-    <state width="1493" height="252" key="GridCell.Tab.0.bottom" timestamp="1584548480390">
+    <state width="1493" height="184" key="GridCell.Tab.0.bottom" timestamp="1584589003488">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="252" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1584548480390" />
-    <state width="1493" height="252" key="GridCell.Tab.0.center" timestamp="1584548480390">
+    <state width="1493" height="184" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1584589003488" />
+    <state width="1493" height="184" key="GridCell.Tab.0.center" timestamp="1584589003488">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="252" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1584548480390" />
-    <state width="1493" height="252" key="GridCell.Tab.0.left" timestamp="1584548480390">
+    <state width="1493" height="184" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1584589003488" />
+    <state width="1493" height="184" key="GridCell.Tab.0.left" timestamp="1584589003488">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="252" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1584548480390" />
-    <state width="1493" height="252" key="GridCell.Tab.0.right" timestamp="1584548480390">
+    <state width="1493" height="184" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1584589003488" />
+    <state width="1493" height="184" key="GridCell.Tab.0.right" timestamp="1584589003488">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="252" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1584548480390" />
-    <state width="1493" height="252" key="GridCell.Tab.1.bottom" timestamp="1584548480390">
+    <state width="1493" height="184" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1584589003488" />
+    <state width="1493" height="252" key="GridCell.Tab.1.bottom" timestamp="1584588103530">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="252" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1584548480390" />
-    <state width="1493" height="252" key="GridCell.Tab.1.center" timestamp="1584548480390">
+    <state width="1493" height="252" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1584588103530" />
+    <state width="1493" height="252" key="GridCell.Tab.1.center" timestamp="1584588103530">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="252" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1584548480390" />
-    <state width="1493" height="252" key="GridCell.Tab.1.left" timestamp="1584548480390">
+    <state width="1493" height="252" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1584588103530" />
+    <state width="1493" height="252" key="GridCell.Tab.1.left" timestamp="1584588103530">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="252" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1584548480390" />
-    <state width="1493" height="252" key="GridCell.Tab.1.right" timestamp="1584548480390">
+    <state width="1493" height="252" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1584588103530" />
+    <state width="1493" height="252" key="GridCell.Tab.1.right" timestamp="1584588103530">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="252" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1584548480390" />
+    <state width="1493" height="252" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1584588103530" />
     <state x="449" y="237" key="com.intellij.ide.util.TipDialog" timestamp="1584584150274">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

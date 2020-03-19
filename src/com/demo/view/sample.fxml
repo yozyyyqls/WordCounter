@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import java.lang.*?>
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.control.*?>
-<?import javafx.scene.layout.GridPane?>
-<?import javafx.scene.layout.Pane?>
 
 <Pane prefHeight="480.0" prefWidth="820.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.demo.control.Controller">
    <children>
-          <Button fx:id="Bt_1" alignment="CENTER" layoutX="367.0" layoutY="178.0" onAction="#open" text="Click me!" />
+          <Button fx:id="Bt_1" alignment="CENTER" layoutX="367.0" layoutY="178.0" onAction="#open" text="Click me! Choosing your files~" />
           <Label fx:id="charN" layoutX="256.0" layoutY="240.0" text="Character Number:" />
           <Label fx:id="wordN" layoutX="270.0" layoutY="298.0" text="Word Number:" />
           <Label fx:id="lineN" layoutX="276.0" layoutY="268.0" text="Line Number:" />

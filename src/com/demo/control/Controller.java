@@ -1,12 +1,12 @@
 package com.demo.control;
 
+import com.demo.wordCounter.WordCount;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.stage.DirectoryChooser;
 
-import javax.swing.*;
 import java.io.File;
 import java.io.IOException;
 
@@ -32,7 +32,7 @@ public class Controller {
         directoryChooser.setTitle("打开源文件");
         File file = directoryChooser.showDialog(null);
         if(file==null){
-            warn.setText("打开的文件不存在");
+            warn.setText("你没有打开任何文件噢~");
             return;
         }else{
             int C = WordCount.wc("-s", "-c", file.getAbsolutePath());
