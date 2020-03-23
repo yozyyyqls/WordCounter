@@ -1,16 +1,17 @@
 package com.demo.control;
 
+import com.demo.Utils.OpenUtil;
+import com.demo.Utils.TimeUtil;
 import com.demo.service.ProWordCount;
 import com.demo.service.WordCount;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
-import javafx.stage.FileChooser;
 
-import javax.swing.*;
 import java.io.File;
 import java.io.IOException;
+import java.util.Timer;
 
 public class Controller {
     public Button Bt_1;
@@ -25,6 +26,8 @@ public class Controller {
     @FXML
     public Label blankNum;
     @FXML
+    public Label path;
+    @FXML
     private Label charNum;
     @FXML
     private Label wordNum;
@@ -35,28 +38,28 @@ public class Controller {
 
     @FXML
     public void open(ActionEvent actionEvent) throws IOException {
-        FileChooser fileChooser = new FileChooser();
-        fileChooser.setTitle("请选择文件，而非目录");
-        File file = fileChooser.showOpenDialog(null);
+        File file = OpenUtil.chooseFile();
         long start = System.currentTimeMillis();
         if(file==null){
             warn.setText("你没有打开任何文件噢~");
             return;
         }else{
+            path.setText(file.getAbsolutePath());
+            int[] num;
 
-            int C = WordCount.wc("-s", "-c", file.getAbsolutePath());
-            int W = WordCount.wc("-s", "-w", file.getAbsolutePath());
-            int L = WordCount.wc("-s", "-l", file.getAbsolutePath());
-            int[] num = ProWordCount.proCount(file.getAbsolutePath());
-            charNum.setText(String.valueOf(C));
-            wordNum.setText(String.valueOf(W));
-            lineNum.setText(String.valueOf(L));
+            num = WordCount.wc("-c", file.getAbsolutePath());
+            charNum.setText(String.valueOf(num[0]));
+            num = WordCount.wc("-w", file.getAbsolutePath());
+            wordNum.setText(String.valueOf(num[0]));
+            num = WordCount.wc("-l", file.getAbsolutePath());
+            lineNum.setText(String.valueOf(num[0]));
+
+            num = ProWordCount.proCount(file.getAbsolutePath());
             codeNum.setText(String.valueOf(num[0]));
             noteNum.setText(String.valueOf(num[1]));
             blankNum.setText(String.valueOf(num[2]));
         }
-        long end = System.currentTimeMillis();
-        long time = end-start;
-        runtime.setText(String.valueOf(time)+"ms");
+        long runTime = TimeUtil.getRunTime(start);
+        runtime.setText(runTime +"ms");
     }
 }

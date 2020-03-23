@@ -140,7 +140,7 @@
     </configuration>
     <configuration name="ControlMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.demo.control.ControlMain" />
-      <module name="WordCounterG" />
+      <module name="WordCounter" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -154,7 +154,7 @@
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="sample.Main" />
-      <module name="WordCounterG" />
+      <module name="WordCounter" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -170,7 +170,7 @@
     </configuration>
     <configuration name="WordCount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.demo.service.WordCount" />
-      <module name="WordCounterG" />
+      <module name="WordCounter" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -194,6 +194,53 @@
       <option name="TEST_SEARCH_SCOPE">
         <value defaultName="moduleWithDependencies" />
       </option>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <module name="WordCounter" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <module name="WordCounter" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -243,6 +290,7 @@
       <workItem from="1584664385955" duration="14530000" />
       <workItem from="1584680641227" duration="1661000" />
       <workItem from="1584694482028" duration="14067000" />
+      <workItem from="1584945844030" duration="7272000" />
     </task>
     <servers />
   </component>
@@ -254,6 +302,10 @@
     <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="361" y="71" key="#Notifications" timestamp="1584946253196">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="71" key="#Notifications/0.0.1536.824@0.0.1536.824" timestamp="1584946253196" />
     <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser" timestamp="1584611797826">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -266,46 +318,46 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1584680665129" />
-    <state width="1493" height="252" key="GridCell.Tab.0.bottom" timestamp="1584716716383">
+    <state width="1493" height="96" key="GridCell.Tab.0.bottom" timestamp="1584953482280">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="252" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1584716716383" />
-    <state width="1493" height="252" key="GridCell.Tab.0.center" timestamp="1584716716383">
+    <state width="1493" height="96" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1584953482280" />
+    <state width="1493" height="96" key="GridCell.Tab.0.center" timestamp="1584953482280">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="252" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1584716716383" />
-    <state width="1493" height="252" key="GridCell.Tab.0.left" timestamp="1584716716383">
+    <state width="1493" height="96" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1584953482280" />
+    <state width="1493" height="96" key="GridCell.Tab.0.left" timestamp="1584953482280">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="252" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1584716716383" />
-    <state width="1493" height="252" key="GridCell.Tab.0.right" timestamp="1584716716383">
+    <state width="1493" height="96" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1584953482280" />
+    <state width="1493" height="96" key="GridCell.Tab.0.right" timestamp="1584953482280">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="252" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1584716716383" />
-    <state width="1493" height="252" key="GridCell.Tab.1.bottom" timestamp="1584716716383">
+    <state width="1493" height="96" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1584953482280" />
+    <state width="1493" height="252" key="GridCell.Tab.1.bottom" timestamp="1584950558021">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="252" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1584716716383" />
-    <state width="1493" height="252" key="GridCell.Tab.1.center" timestamp="1584716716383">
+    <state width="1493" height="252" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1584950558021" />
+    <state width="1493" height="252" key="GridCell.Tab.1.center" timestamp="1584950558021">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="252" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1584716716383" />
-    <state width="1493" height="252" key="GridCell.Tab.1.left" timestamp="1584716716383">
+    <state width="1493" height="252" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1584950558021" />
+    <state width="1493" height="252" key="GridCell.Tab.1.left" timestamp="1584950558021">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="252" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1584716716383" />
-    <state width="1493" height="252" key="GridCell.Tab.1.right" timestamp="1584716716383">
+    <state width="1493" height="252" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1584950558021" />
+    <state width="1493" height="252" key="GridCell.Tab.1.right" timestamp="1584950558021">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="252" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1584716716383" />
+    <state width="1493" height="252" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1584950558021" />
     <state x="379" y="0" width="914" height="824" key="SettingsEditor" timestamp="1584680981583">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="379" y="0" width="914" height="824" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1584680981583" />
-    <state x="449" y="237" key="com.intellij.ide.util.TipDialog" timestamp="1584694508227">
+    <state x="449" y="237" key="com.intellij.ide.util.TipDialog" timestamp="1584945866739">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="449" y="237" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1584694508227" />
+    <state x="449" y="237" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1584945866739" />
     <state x="499" y="177" key="extract.method.dialog" timestamp="1584708772573">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -314,5 +366,16 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="178" y="119" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1584694880003" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/demo/service/WordCount.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
